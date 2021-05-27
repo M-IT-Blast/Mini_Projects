@@ -40,9 +40,9 @@ Qualified IPATE 2020 with 43  marks out of 100.\n
 ''')
 Languages = ('''\nBasic level of C , C ++.\n
 Moderate level of Python\n''')
-Contact = ('''\nMobile No - +91 8691982080
-            +91 7977940899\n
-Email - mspinjari7867@gamil.com\n''')
+Contact = ('''\nMobile No - +91 **********
+            +91 **********\n
+Email - name.smthin@example.com\n''')
 
 
 ask = input("Ask for the details: ").lower()
@@ -68,6 +68,9 @@ while ask != "":
 
     elif "diploma marks" in ask or "diploma percentage" in ask:
         print ("\n84.18 % (First class Distinction)\n ")
+
+    elif "ssc marks" in ask or "ssc percentage" in ask:
+        print ("\n90.60 % \n ")
     
     elif "degree" in ask  and "project" in ask:
         print('''\nPerformance Based Analysis of Micro Hydro Power Plant — 
@@ -97,11 +100,11 @@ A Solution to Prevent Direct Human contact with  the accident Zone\n''')
         print(Languages)
 
     elif "mobile" in ask or "phone" in ask:
-        print('''\n+91 8691982080
-+91 7977940899\n''' )
+        print('''\n+91 **********
++91 ********\n''' )
 
     elif "email" in ask or "e-mail" in ask:
-        print("\nEmail :- mspinjari7867@gmail.com\n")
+        print("\nEmail :- name.smthin@example.com\n")
     
     elif "contact" in ask:
         print(Contact)
